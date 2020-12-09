@@ -1,0 +1,23 @@
+.query-input-container {
+    display: flex;
+    flex-direction: row;
+}
+.query-input {
+    font-size: 1.8rem;
+    margin-right: 8px;
+    padding: 6px;
+    width: 400px;
+}
+.spinner {
+    display: none;
+    margin: auto 0;
+}
+.spinner.results-loading {
+    display: block;
+}
+.spinner svg {
+    vertical-align: middle;
+}
+.results-list {
+    /* Something is bound to go here... */
+}
